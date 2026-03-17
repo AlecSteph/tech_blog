@@ -1,0 +1,126 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}À propos - Tech Blog{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="hero-section text-center py-5 mb-5">
+            <h1 class="display-4 fw-bold text-primary mb-3">
+                <i class="fas fa-info-circle me-3"></i>
+                À propos de Tech Blog
+            </h1>
+            <p class="lead text-secondary">Découvrez notre passion pour la technologie et l'innovation</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body p-4">
+                        <h2 class="h4 fw-bold text-primary mb-3">
+                            <i class="fas fa-bullseye me-2"></i>
+                            Notre Mission
+                        </h2>
+                        <p class="text-secondary mb-4">
+                            Tech Blog est une plateforme dédiée au partage de connaissances techniques et de bonnes pratiques 
+                            dans le domaine du développement web et des nouvelles technologies. Notre mission est de rendre 
+                            l'information technique accessible à tous, des débutants aux experts.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body p-4">
+                        <h2 class="h4 fw-bold text-primary mb-3">
+                            <i class="fas fa-code me-2"></i>
+                            Notre Expertise
+                        </h2>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="fas fa-check-circle text-success me-2"></i>
+                                    <strong>Développement Web</strong>
+                                </div>
+                                <p class="text-secondary small mb-0">HTML, CSS, JavaScript, PHP, Symfony</p>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="fas fa-check-circle text-success me-2"></i>
+                                    <strong>Frameworks Modernes</strong>
+                                </div>
+                                <p class="text-secondary small mb-0">React, Vue.js, Angular, Laravel</p>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="fas fa-check-circle text-success me-2"></i>
+                                    <strong>Base de Données</strong>
+                                </div>
+                                <p class="text-secondary small mb-0">MySQL, PostgreSQL, MongoDB</p>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="d-flex align-items-center mb-2">
+                                    <i class="fas fa-check-circle text-success me-2"></i>
+                                    <strong>DevOps & Cloud</strong>
+                                </div>
+                                <p class="text-secondary small mb-0">Docker, Kubernetes, AWS, Azure</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body p-4">
+                        <h2 class="h4 fw-bold text-primary mb-3">
+                            <i class="fas fa-users me-2"></i>
+                            Notre Communauté
+                        </h2>
+                        <p class="text-secondary mb-3">
+                            Nous croyons au pouvoir de la communauté et au partage des connaissances. Chaque article, 
+                            tutoriel et guide est créé avec soin pour vous aider dans votre parcours d'apprentissage.
+                        </p>
+                        <div class="row text-center">
+                            <div class="col-4">
+                                <div class="stat-item">
+                                    <h3 class="fw-bold text-primary">100+</h3>
+                                    <p class="text-secondary small mb-0">Articles Publiés</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="stat-item">
+                                    <h3 class="fw-bold text-primary">50+</h3>
+                                    <p class="text-secondary small mb-0">Tutoriels Vidéo</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="stat-item">
+                                    <h3 class="fw-bold text-primary">1000+</h3>
+                                    <p class="text-secondary small mb-0">Développeurs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card shadow-sm">
+                    <div class="card-body p-4">
+                        <h2 class="h4 fw-bold text-primary mb-3">
+                            <i class="fas fa-cogs me-2"></i>
+                            Technologies Utilisées
+                        </h2>
+                        <p class="text-secondary mb-4">
+                            Notre blog est construit avec des technologies modernes et performantes pour garantir 
+                            une expérience utilisateur optimale.
+                        </p>
+                        <div class="tech-badges">
+                            <span class="badge bg-primary me-2 mb-2 p-2">Symfony</span>
+                            <span class="badge bg-success me-2 mb-2 p-2">PHP</span>
+                            <span class="badge bg-info me-2 mb-2 p-2">Bootstrap</span>
+                            <span class="badge bg-warning me-2 mb-2 p-2">JavaScript</span>
+                            <span class="badge bg-danger me-2 mb-2 p-2">MySQL</span>
+                            <span class="badge bg-secondary me-2 mb-2 p-2">Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
